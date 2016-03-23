@@ -1,6 +1,7 @@
 /* General */ 
 h1 {
-	font-family: Merriweather-Bold;
+	font-family: Merriweather;
+	font-weight: 700;
 	font-size: 170px;
 	color: #000000;
 	letter-spacing: 6.24px;
@@ -21,7 +22,7 @@ h3 {
 	font-weight:400;
 	font-size: 40px;
 	color: #000000;
-	line-height: 40px;
+	line-height: 49px;
 	margin: 20px 0;
 }
 
@@ -284,4 +285,9 @@ body {
 	padding-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+	.sm-screen-center {
+		text-align: center;
+	}
+}
 
