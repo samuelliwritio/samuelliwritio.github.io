@@ -1,0 +1,287 @@
+/* General */ 
+h1 {
+	font-family: Merriweather-Bold;
+	font-size: 170px;
+	color: #000000;
+	letter-spacing: 6.24px;
+	line-height: 210px;
+} 
+
+h2 {
+	font-family: Merriweather-Light;
+	font-weight: 300; 
+	font-size: 50px;
+	color: #999999;
+	letter-spacing: 1.83px;
+	line-height: 60px;
+}
+
+h3 {
+	font-family: Merriweather;
+	font-weight:400;
+	font-size: 40px;
+	color: #000000;
+	line-height: 40px;
+	margin: 20px 0;
+}
+
+a {
+	font-family: Lato-Light;
+	font-size: 25px;
+	color: #000000;
+	line-height: 32px;
+} 
+
+hr {
+	border: 1px solid #EFEFEF;
+	width: 90%;
+}
+
+/* .large-container {
+	width: 90%;
+	margin: 0 auto;
+} */ 
+
+body {
+	background-color: #FBFAF5;
+}
+
+/* Design of the Banner */ 
+
+.title-banner {
+	background-color: #FBFAF5;
+	position: relative; 
+	padding: 3rem 4rem 13rem 4rem;
+	text-align: center;
+}
+
+.title {
+	font-size: 170px; 
+	margin-bottom: 0;
+}
+
+.tagline {
+	margin-bottom: 100px;
+}
+
+.title-banner-laptop {
+	max-width: 1200px; 
+	margin: 0 auto;
+}
+
+@media (max-width: 1080px) {
+	.title-banner-laptop {
+		width: 90%;
+	} 
+}
+
+@media (max-width: 768px) {
+	.title-banner-laptop {
+		width: 99%;
+	} 
+
+	.title {
+		font-size: 80px;
+		margin-bottom: 0px;
+		line-height: 120px;
+	}
+
+	.tagline {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+/* Description Section */ 
+.description-section {
+	background-color: #ffffff; 
+	margin: 0px auto; 
+	width: 100%;
+	overflow: auto;
+}
+
+.description {
+	position: relative;
+	width: 60%;
+	margin: 100px 140px;
+}
+
+@media (max-width: 768px) {
+	.description {
+		width: 90%; 
+		margin: 50px auto; 
+		text-align: center;
+	}
+}
+
+.step-description {
+	margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+	.step-description {
+		margin-bottom: 50px;
+	}
+}
+
+.explore-section {
+	margin: 120px auto;
+	width: 90%;
+	overflow: auto;
+}
+
+.explore-image {
+	width: 80%;
+	max-width: 500px;
+	margin: 0 70px;
+	float: right;
+}
+
+.organize-section {
+	width: 100%;
+	margin: 70px auto 0 auto;
+}
+
+.organize-image {
+	float: left;
+	width: 100%;
+	max-width: 550px;
+}
+
+.organize-section .padding-0 {
+	padding: 0;
+}
+
+.highlight-section {
+	width: 90%;
+	margin: 70px auto 0 auto;
+}
+
+.highlight-image {
+	float: right;
+	width: 100%;
+	max-width: 600px;
+}
+
+.publish-section {
+	margin: 70px auto;
+	width: 90%;
+	overflow: auto;
+}
+
+.publish-image {
+	float: right;
+	width: 100%;
+	max-width: 550px;
+}
+
+/* Team Section */
+.team-section {
+	background-color: #333333; 
+	margin: 0px auto; 
+	padding: 70px 0;
+	width: 100%;
+	display: block; 
+	overflow: auto; 
+} 
+
+.team-section-container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.team-section-title {
+	color: #ffffff;
+	text-align: center; 
+}
+
+.person {
+	text-align: center;
+	width:24%;
+	display: inline-block;
+}
+
+@media (max-width: 1080px) {
+	.person {
+		width: 48%;
+	}
+}
+
+@media (max-width: 768px) {
+	.person {
+		width: 100%;
+		margin: 30px auto;
+	}
+}
+
+.person-image {
+	width: 85%;
+	margin: 20px auto;
+}
+
+.person-name {
+	font-family: Merriweather;
+	font-weight: 400px;
+	font-size: 25px;
+	color: #FFFFFF;
+}
+
+.person-description {
+	font-family: Lato-Light;
+	font-size: 15px;
+	color: #FFFFFF;
+	line-height: 22px;
+}
+
+/* Sign-up Section */ 
+
+.sign-up-banner {
+	background-color: #FBFAF5;
+	position: relative; 
+	padding: 3rem 4rem 13rem 4rem;
+	text-align: center;
+}
+
+.sign-up-title {
+	font-size: 60px; 
+	margin-bottom: 0;
+	letter-spacing: 3px;
+}
+
+.sign-up-banner-laptop {
+	max-width: 1200px; 
+	margin: 0 auto;
+}
+
+@media (max-width: 1080px) {
+	.sign-up-banner-laptop {
+		width: 90%;
+	} 
+}
+
+@media (max-width: 768px) {
+	.sign-up-banner-laptop {
+		width: 99%;
+	} 
+
+	.sign-up-title {
+		font-size: 30px;
+		margin-bottom: 30px;
+		line-height: 40px;
+	}
+}
+
+/* Padding Adjustments */ 
+.padding-top-70 {
+	padding-top: 70px;
+}
+
+.padding-top-40 {
+	padding-top: 30px;
+}
+
+.padding-bottom-20 {
+	padding-bottom: 20px;
+}
+
+
